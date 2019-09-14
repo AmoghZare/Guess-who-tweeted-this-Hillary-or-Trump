@@ -4,3 +4,5 @@ Once the connection is authorised, tweets are fetched from twitter and converted
 The tweets are then tokenized and transformed using tfidf vectorizer.
 Using logistic regression, the data is fitted.
 After that, this model is tested on some other tweets and with the highest accuracy achieved being 95%
+
+Technologies used: Python, Sci-kit learn, Twitter API
